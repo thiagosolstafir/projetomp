@@ -1,0 +1,37 @@
+{
+  "name": "projetomp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zurb/foundation-sites-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zurb/foundation-sites/issues",
+    "email": "foundation@zurb.com"
+  },
+  "author": "Media Plus",
+  "private": true,
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-install": "^0.6.0"
+  }
+}
