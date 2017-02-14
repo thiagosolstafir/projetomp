@@ -20,7 +20,7 @@ var js = [
     './includes/js/main.js'
 ];
 
-// Tarefa de minifica��o do Javascript
+// Tarefa de minificação do Javascript
 gulp.task('minify-js', function () {
     gulp.src(js)
         .pipe(concat('app.js'))
