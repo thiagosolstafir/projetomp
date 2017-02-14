@@ -9,7 +9,8 @@ var sassPaths = [
     'bower_components/foundation-sitegulps/scss',
     'bower_components/motion-ui/src',
     'bower_components/neutroncss',
-    'core/scss'
+    'core/scss',
+    'includes/css/*.scss'
 ];
 
 var js = [
@@ -37,7 +38,7 @@ gulp.task('sass', function () {
     };
 
     /** @namespace $.sass */
-    return gulp.src('includes/css/app.scss')
+    return gulp.src('includes/css/*.scss')
 
         .pipe($.sass({
             includePaths: sassPaths,
@@ -58,6 +59,7 @@ gulp.task('sass', function () {
 
 
 gulp.task('default', ['sass', 'minify-js'], function () {
-    gulp.watch(['includes/scss/**/*.scss'], ['sass']);
+    gulp.watch(['includes/css/**/*.scss'], ['sass']);
+    gulp.watch(['core/scss/**/*.scss'], ['sass']);
     gulp.watch(js, ['minify-js']);
 });
