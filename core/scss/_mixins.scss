@@ -112,13 +112,12 @@
 }
 
 @mixin mp-button($name, $bg, $color, $br) {
-  &.#{$name} {
+  .#{$name} {
     @include mp-width(auto);
     @include mp-br($br, $br, $br, $br);
     background: $bg;
     color: $color;
     padding: 5px 20px;
-    margin: 30px;
     &:hover {
       background: darken($color, 5%);
     }
@@ -126,6 +125,7 @@
 }
 
 @mixin mp-calc($property, $value) {
+  #{$property}: -moz-calc(#{$value});
   #{$property}: -webkit-calc(#{$value});
   #{$property}: calc(#{$value});
 }
