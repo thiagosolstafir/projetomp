@@ -118,6 +118,7 @@
     background: $bg;
     color: $color;
     padding: 5px 20px;
+    cursor: pointer;
     &:hover {
       background: darken($color, 5%);
     }
