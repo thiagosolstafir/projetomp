@@ -111,17 +111,15 @@
   transform: rotate($val);
 }
 
-@mixin mp-button($name, $bg, $color, $br) {
+@mixin mp-button($name, $w, $h, $bg, $color, $fw, $br) {
   .#{$name} {
-    @include mp-width(auto);
+    @include mp-width($w, $h);
     @include mp-br($br, $br, $br, $br);
     background: $bg;
+    font-weight: $fw;
     color: $color;
-    padding: 5px 20px;
     cursor: pointer;
-    &:hover {
-      background: darken($color, 5%);
-    }
+    padding: 5px 20px;
   }
 }
 
