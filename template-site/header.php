@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $mainFolder; ?>/includes/css/app.css?<?php echo rand(); ?>">
     <link rel="stylesheet" href="<?php echo $mainFolder; ?>/includes/css/mobile.css?<?php echo rand(); ?>">
-    <script src="<?php echo $mainFolder; ?>/core/js/app.js?<?php echo rand(); ?>"></script>
+    <script src="<?php echo $mainFolder; ?>/includes/js/app.js?<?php echo rand(); ?>"></script>
 
 
     <script type="text/javascript">
