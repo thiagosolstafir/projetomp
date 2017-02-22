@@ -11,7 +11,8 @@
   $tamanho-fonte,
   $cor-fonte,
   $weight,
-  $sombra
+  $sombra,
+  $pd
 ) {
   .form-select {
     width: 100%;
@@ -45,7 +46,7 @@
       height: $altura;
       line-height: $altura;
       color: $cor-fonte;
-      padding: 0 20px;
+      padding: $pd;
       font-size: $tamanho-fonte;
       font-weight: $weight;
 
