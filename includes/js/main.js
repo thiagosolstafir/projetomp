@@ -57,6 +57,14 @@ function mov_scroll(id) {
 
 function allFunctions() {
 
+    $(".title-bar button").click(function () {
+        lock_scroll();
+    });
+
+    $(".js-off-canvas-overlay.is-overlay-fixed").click(function () {
+        unlock_scroll();
+    });
+
     //carrega swiper
     setTimeout(function () {
         $(".swiper-wrapper").animate({opacity: 1}, 200);
