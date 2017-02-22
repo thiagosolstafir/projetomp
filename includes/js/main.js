@@ -61,7 +61,7 @@ function allFunctions() {
         lock_scroll();
     });
 
-    $(".js-off-canvas-overlay.is-overlay-fixed").click(function () {
+    $(".js-off-canvas-overlay.is-overlay-fixed, .m-mobile .close-button").click(function () {
         unlock_scroll();
     });
 
