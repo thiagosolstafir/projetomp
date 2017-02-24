@@ -18,6 +18,7 @@ var js = [
     './core/js/what-input.js',
     './core/js/foundation.js',
     './core/js/load.js',
+    './core/js/lightbox.js',
     './includes/js/main.js'
 ];
 

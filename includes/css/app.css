@@ -4631,7 +4631,7 @@ textarea {
   clear: both; }
   .fluid .responsive {
     width: 100%;
-    max-width: "1190px";
+    max-width: 1190px;
     margin: 0 auto;
     height: auto;
     padding: 0 15px; }
@@ -9493,12 +9493,6 @@ Copyright (c) 2015 Daniel Eden
     height: auto;
     float: left;
     margin: 0; }
-
-.responsive {
-  width: 100%;
-  max-width: 1160px;
-  margin: 0 auto;
-  height: auto; }
 
 #load {
   width: 100%;

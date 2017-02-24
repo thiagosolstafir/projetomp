@@ -15,6 +15,11 @@
 
 
     <script type="text/javascript">
+        $(function () {
+            $.mediaplus = {
+                'mainFolder': '<?php echo $mainFolder; ?>'
+            };
+        });
         window.mainFolder = '<?php echo $mainFolder; ?>';
         window.idMP = '';
         window.descMP = '';
