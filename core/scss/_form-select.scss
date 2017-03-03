@@ -38,13 +38,13 @@
       position: relative;
       opacity: 0;
       cursor: pointer;
-      margin-top: -$altura + 2px;
+      margin-top: -$altura;
     }
 
     strong {
       width: auto;
       height: $altura;
-      line-height: $altura;
+      line-height: $altura - 5px;
       color: $cor-fonte;
       padding: $pd;
       font-size: $tamanho-fonte;
@@ -56,6 +56,3 @@
     }
   }
 }
-
-//como usar
-//@include mp-form-select(50px, false, 2px,2px,2px,2px, #00f, $corPrincipal, 14px, #ccc, 400);
