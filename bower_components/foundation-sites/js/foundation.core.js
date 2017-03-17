@@ -2,7 +2,7 @@
 
     "use strict";
 
-    var FOUNDATION_VERSION = '6.3.0';
+    var FOUNDATION_VERSION = '6.3.1';
 
 // Global Foundation object
 // This is attached to the window, or used as a module for AMD/Browserify
@@ -383,7 +383,6 @@
         else if (!isNaN(str * 1)) return parseFloat(str);
         return str;
     }
-
 // Convert PascalCase to kebab-case
 // Thank you: http://stackoverflow.com/a/8955580
     function hyphenate(str) {

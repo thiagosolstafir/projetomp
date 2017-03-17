@@ -1,4 +1,4 @@
-// Type definitions for Foundation Sites v6.3.0-rc2
+// Type definitions for Foundation Sites v6.3.1
 // Project: http://foundation.zurb.com/
 // Github: https://github.com/zurb/foundation-sites
 //
@@ -22,6 +22,18 @@ declare module FoundationSites {
         matchValidation(element: JQuery, validators: string, required: boolean): boolean;
         resetForm(): void;
         destroy(): void;
+    }
+
+    interface AbideDefaults {
+        validateOn: string;
+        labelErrorClass: string;
+        inputErrorClass: string;
+        formErrorSelector: string;
+        formErrorClass: string;
+        liveValidate: boolean;
+        validateOnBlur: boolean;
+        patterns: IAbidePatterns;
+        validators: any; // TODO, maybe there is a better solution to describe how this object may look like
     }
 
     interface IAbidePatterns {
@@ -397,7 +409,7 @@ declare module FoundationSites {
         unregisterPlugin(plugin: Object): void;
         reInit(plugins: Array<any>): void;
         GetYoDigits(length: number, namespace?: string): string;
-        reflow(elem: Object, plugins?: Array<string>|string): void;
+        reflow(elem: Object, plugins?: Array<string> | string): void;
         getFnName(fn: string): string;
         transitionend(): string;
 
@@ -407,6 +419,7 @@ declare module FoundationSites {
 
         Abide: {
             new(element: JQuery, options?: IAbideOptions): Abide;
+            defaults: AbideDefaults;
         }
         Accordion: {
             new(element: JQuery, options?: IAccordionOptions): Accordion;
@@ -473,7 +486,7 @@ declare module FoundationSites {
 }
 
 interface JQuery {
-    foundation(method?: string|Array<any>, $element?: JQuery): JQuery;
+    foundation(method?: string | Array<any>, $element?: JQuery): JQuery;
 }
 
 declare var Foundation: FoundationSites.FoundationSitesStatic;

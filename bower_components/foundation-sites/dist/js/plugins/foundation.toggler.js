@@ -178,7 +178,8 @@ function _classCallCheck(instance, Constructor) {
         /**
          * Tells the plugin if the element should animated when toggled.
          * @option
-         * @example false
+         * @type {boolean}
+         * @default false
          */
         animate: false
     };

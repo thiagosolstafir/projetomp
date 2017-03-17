@@ -102,7 +102,7 @@
                 },
                 type = eventTypes[event.type],
                 simulatedEvent
-                ;
+            ;
 
             if ('MouseEvent' in window && typeof window.MouseEvent === 'function') {
                 simulatedEvent = new window.MouseEvent(type, {

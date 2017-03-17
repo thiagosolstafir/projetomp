@@ -46,7 +46,7 @@
   -webkit-text-stroke: $t !important;
 }
 
-@mixin mp-semsombra {
+@mixin mp-sem-sombra {
   -webkit-text-stroke-color: transparent !important;
   -webkit-text-stroke: 0px !important;
 }
@@ -150,4 +150,5 @@
   -ms-justify-content: center;
   -webkit-justify-content: center;
   justify-content: center;
+  @content;
 }
