@@ -47,8 +47,8 @@
         <div id="lt-int"></div>
     </div>
 
-    <div id="lt-page" class="fluid">
-        <div id="lt-int-page"></div>
+    <div id="lt-scroll" class="fluid">
+        <div id="lt-scroll-int"></div>
     </div>
 
     <header></header>

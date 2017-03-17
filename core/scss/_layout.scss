@@ -13,10 +13,9 @@
     max-width: $global-responsive;
     margin: 0 auto;
     height: auto;
-    padding:0 15px;
+    padding: 0 15px;
   }
 }
-
 
 /******************************
 * swipper
@@ -79,12 +78,18 @@
 /******************************
 * Menu mobile
 *******************************/
+
+.title-bar-bg-active {
+  background: $color-default !important;
+}
+
+
 .title-bar {
   width: 100%;
   height: 50px;
   float: left;
   display: none;
-  background: $color-second-default !important;
+  background: transparent;
   position: fixed;
   left: 0;
   top: 0;
@@ -94,6 +99,11 @@
   button {
     background: transparent;
   }
+
+  .title-bar-title {
+    opacity: 0;
+  }
+
 }
 
 .m-mobile {
@@ -188,7 +198,7 @@
         color: $color-second-default;
         font-size: 14px;
         line-height: 50;
-        &:hover, &.ativo{
+        &:hover, &.ativo {
           color: $color-default;
         }
       }

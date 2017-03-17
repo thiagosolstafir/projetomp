@@ -1,13 +1,20 @@
-@mixin mp-width($w:100%, $h:auto, $m:0, $f:left, $c: false) {
+@mixin mp-width($w:100%, $h:auto, $m:0, $f:left, $c: false, $i: false) {
   @if $c == true {
     @include mp-center;
     width: $w;
     height: $h;
   } @else {
-    width: $w;
-    height: $h;
-    float: $f;
-    margin: $m;
+    @if $i == true {
+      width: $w !important;
+      height: $h !important;
+      float: $f;
+      margin: $m;
+    } @else {
+      width: $w;
+      height: $h;
+      float: $f;
+      margin: $m;
+    }
   }
 }
 

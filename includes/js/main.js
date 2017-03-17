@@ -105,6 +105,14 @@ function allFunctions() {
         scroll_site;
         y = $(document).scrollTop();
 
+        if (y > 50) {
+            $(".title-bar").addClass('title-bar-bg-active');
+            $(".title-bar .title-bar-title").css('opacity', 1);
+        } else {
+            $(".title-bar").removeClass('title-bar-bg-active');
+            $(".title-bar .title-bar-title").css('opacity', 0);
+        }
+
         // if(y > 300){
         //     $(".menu-fixed").addClass('open');
         // }else{
