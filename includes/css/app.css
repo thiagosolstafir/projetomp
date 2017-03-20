@@ -3646,34 +3646,35 @@ table {
   width: 100%;
   margin-bottom: 0;
   border-radius: 0; }
-  table thead,
-  table tbody,
-  table tfoot {
+
+thead, tbody, tfoot {
     border: 1px solid #f2f2f2;
     background-color: #ffffff; }
-  table caption {
+
+caption {
     padding: 0.57143rem 0.71429rem 0.71429rem;
     font-weight: bold; }
-  table thead {
+
+thead {
     background: #f9f9f9;
     color: #0a0a0a; }
-  table tfoot {
+
+tfoot {
     background: #f2f2f2;
     color: #0a0a0a; }
-  table thead tr,
-  table tfoot tr {
+
+thead tr, tfoot tr {
     background: transparent; }
-  table thead th,
-  table thead td,
-  table tfoot th,
-  table tfoot td {
+
+thead th, thead td, tfoot th, tfoot td {
     padding: 0.57143rem 0.71429rem 0.71429rem;
     font-weight: bold;
     text-align: left; }
-  table tbody th,
-  table tbody td {
+
+tbody th, tbody td {
     padding: 0.57143rem 0.71429rem 0.71429rem; }
-  table tbody tr:nth-child(even) {
+
+tbody tr:nth-child(even) {
     border-bottom: 0;
     background-color: #f2f2f2; }
   table.unstriped tbody {
@@ -4858,7 +4859,19 @@ textarea {
   position: fixed;
   top: 0;
   left: 0;
+    z-index: 6000;
   background: rgba(17, 17, 17, 0.8);
+    display: -ms-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /* centraliza na vertical */
+    -ms-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* centraliza na horizontal */
+    -ms-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   display: none; }
   .load-ajax svg {
     display: table;
@@ -4903,6 +4916,23 @@ textarea {
           color: #ff0000; }
   .menu-fixed.open {
     top: 0; }
+
+/******************************
+* centralizar
+*******************************/
+.centralizar {
+    display: -ms-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /* centraliza na vertical */
+    -ms-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* centraliza na horizontal */
+    -ms-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
 
 /**
  * Swiper 3.4.0
