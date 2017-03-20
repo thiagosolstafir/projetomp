@@ -17,7 +17,7 @@
 </div>
 
 <!-- load ajax default -->
-<div class="load-ajax centraliza">
+<div class="load-ajax">
 
     <svg width='60px' height='60px' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
          preserveAspectRatio="xMidYMid" class="uil-spin">

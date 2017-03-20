@@ -170,7 +170,9 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 6000;
   background: rgba(17, 17, 17, 0.8);
+  @include centralizar;
   display: none;
 
   svg {
@@ -207,4 +209,22 @@
   &.open {
     top: 0;
   }
+}
+
+/******************************
+* centralizar
+*******************************/
+.centralizar {
+  //noinspection CssInvalidPropertyValue
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  /* centraliza na vertical */
+  -ms-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+  /* centraliza na horizontal */
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
