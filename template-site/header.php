@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="<?php echo $mainFolder; ?>/includes/css/app.css?<?php echo rand(); ?>">
     <link rel="stylesheet" href="<?php echo $mainFolder; ?>/includes/css/mobile.css?<?php echo rand(); ?>">
     <script src="<?php echo $mainFolder; ?>/includes/js/app.js?<?php echo rand(); ?>"></script>
+    <script src="<?php echo $mainFolder; ?>/includes/js/jquery.cycle2.js?<?php echo rand(); ?>"></script>
+    <script src="<?php echo $mainFolder; ?>/includes/js/jquery.cycle2.carousel.js?<?php echo rand(); ?>"></script>
+    <script src="<?php echo $mainFolder; ?>/includes/js/jquery.cycle2.swipe.js?<?php echo rand(); ?>"></script>
+    <script src="<?php echo $mainFolder; ?>/includes/js/jquery.cycle2.center.js?<?php echo rand(); ?>"></script>
+    <script src="<?php echo $mainFolder; ?>/includes/js/jquery.cycle2.caption2.js?<?php echo rand(); ?>"></script>
+    <script src="<?php echo $mainFolder; ?>/includes/js/jquery.cycle2.scrollVert.js?<?php echo rand(); ?>"></script>
 
 
     <script type="text/javascript">
