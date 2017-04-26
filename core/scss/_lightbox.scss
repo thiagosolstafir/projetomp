@@ -1016,3 +1016,25 @@
 
 }
 */
+
+
+// lightbox video
+#video-lt {
+  @include mp-width(100%, 100%);
+  position: absolute;
+  @include centralizar;
+
+  padding: 120px 80px 80px 80px;
+  .video-int {
+    @include mp-width();
+  }
+}
+
+@media (max-width: 967px) {
+  #video-lt {
+    padding: 40px 15px;
+    .video-int {
+      @include mp-width();
+    }
+  }
+}
