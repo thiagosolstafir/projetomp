@@ -18,6 +18,13 @@ function loadAjust() {
     h_tela = $(window).height();
     w_tela = $(window).width();
 
+    if (w_tela < 1023) {
+        $(".abrir-galeria").css('display', 'block');
+    } else {
+        $(".abrir-galeria").css('display', 'none');
+        $("#area-galeria-left-int").removeClass('abrir-menu');
+    }
+
     $("#lt-page, #lt-int-page").css('min-height', h_tela);
 
 }
