@@ -163,54 +163,45 @@
         <li>
             <div class="centralizar">
                 <img src="https://dummyimage.com/600x600" alt="">
-                <img src="https://dummyimage.com/600x600" alt="">
             </div>
         </li>
         <li>
             <div class="centralizar">
                 <img src="https://dummyimage.com/600x600" alt="">
-                <img src="https://dummyimage.com/600x600" alt="">
             </div>
         </li>
         <li>
             <div class="centralizar">
                 <img src="https://dummyimage.com/600x600" alt="">
-                <img src="https://dummyimage.com/600x600" alt="">
             </div>
         </li>
         <li>
             <div class="centralizar">
-                <img src="https://dummyimage.com/300x300" alt="">
-                <img src="https://dummyimage.com/300x300" alt="">
-            </div>
-        </li>
-        <li>
-            <div class="centralizar">
-                <img src="https://dummyimage.com/300x300" alt="">
                 <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>
         <li>
             <div class="centralizar">
                 <img src="https://dummyimage.com/300x300" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="centralizar">
                 <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>
         <li>
             <div class="centralizar">
                 <img src="https://dummyimage.com/300x300" alt="">
-                <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>
         <li>
             <div class="centralizar">
                 <img src="https://dummyimage.com/300x300" alt="">
-                <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>
         <li>
             <div class="centralizar">
-                <img src="https://dummyimage.com/300x300" alt="">
                 <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>

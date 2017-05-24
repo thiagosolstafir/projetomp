@@ -29,6 +29,15 @@ function loadAjust() {
 
     $("#lt-page, #lt-int-page").css('min-height', h_tela);
 
+
+    if (w_tela < 960) {
+        $('#slider_lt li , #slider_lt li ins').css('height', h_tela + 'px');
+        $('#slider_lt img').css('max-height', h_tela + 'px').css('max-width', w_tela + 'px');
+    } else {
+        $('#slider_lt li , #slider_lt li ins').css('height', h_tela - 90 + 'px');
+        $('#slider_lt img').css('max-height', h_tela - 90 + 'px').css('max-width', w_tela + 'px');
+    }
+
 }
 
 /**
