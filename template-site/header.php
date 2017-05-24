@@ -56,5 +56,3 @@
     <div id="lt-scroll" class="fluid">
         <div id="lt-scroll-int"></div>
     </div>
-
-    <header></header>
