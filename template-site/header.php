@@ -21,11 +21,9 @@
 
 
     <script type="text/javascript">
-        $(function () {
-            $.mediaplus = {
-                'mainFolder': '<?php echo $mainFolder; ?>'
-            };
-        });
+        $.fn.cycle.defaults.autoSelector = '.slideshow';
+        new WOW().init();
+
         window.mainFolder = '<?php echo $mainFolder; ?>';
         window.idMP = '';
         window.descMP = '';

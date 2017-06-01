@@ -7,14 +7,14 @@
   height: auto;
   float: left;
   clear: both;
+}
 
-  .responsive {
-    width: 100%;
-    max-width: $global-responsive;
-    margin: 0 auto;
-    height: auto;
-    padding: 0 15px;
-  }
+.responsive {
+  width: 100%;
+  max-width: $global-responsive;
+  margin: 0 auto;
+  height: auto;
+  padding: 0 15px;
 }
 
 /******************************
@@ -60,7 +60,7 @@
 * Helper
 *******************************/
 
-.centraliza {
+.ctr {
   //noinspection CssInvalidPropertyValue
   display: -ms-flex;
   display: -webkit-flex;

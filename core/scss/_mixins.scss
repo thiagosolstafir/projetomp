@@ -137,7 +137,7 @@
   #{$property}: calc(#{$value});
 }
 
-@mixin centralizar {
+@mixin mp-ctr($js: center) {
   //noinspection CssInvalidPropertyValue
   display: -ms-flex;
   display: -webkit-flex;
@@ -149,6 +149,6 @@
   /* centraliza na horizontal */
   -ms-justify-content: center;
   -webkit-justify-content: center;
-  justify-content: center;
+  justify-content: $js;
   @content;
 }

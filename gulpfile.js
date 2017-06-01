@@ -17,8 +17,8 @@ var js = [
     './core/js/jquery.js',
     './core/js/what-input.js',
     './core/js/foundation.js',
-    './core/js/load.js',
-    './core/js/lightbox.js',
+    //'./core/js/wow.js',
+    //'./core/js/onepage.js',
     './includes/js/main.js'
 ];
 
