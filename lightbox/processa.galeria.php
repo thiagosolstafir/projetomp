@@ -161,47 +161,47 @@
     >
 
         <li>
-            <div class="centralizar">
+            <div class="ctr">
                 <img src="https://dummyimage.com/600x600" alt="">
             </div>
         </li>
         <li>
-            <div class="centralizar">
+            <div class="ctr">
                 <img src="https://dummyimage.com/600x600" alt="">
             </div>
         </li>
         <li>
-            <div class="centralizar">
+            <div class="ctr">
                 <img src="https://dummyimage.com/600x600" alt="">
             </div>
         </li>
         <li>
-            <div class="centralizar">
+            <div class="ctr">
                 <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>
         <li>
-            <div class="centralizar">
+            <div class="ctr">
                 <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>
         <li>
-            <div class="centralizar">
+            <div class="ctr">
                 <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>
         <li>
-            <div class="centralizar">
+            <div class="ctr">
                 <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>
         <li>
-            <div class="centralizar">
+            <div class="ctr">
                 <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>
         <li>
-            <div class="centralizar">
+            <div class="ctr">
                 <img src="https://dummyimage.com/300x300" alt="">
             </div>
         </li>
@@ -252,39 +252,39 @@
 
             <li>
 
-                <a id="_0" idFoto="0" class="centralizar ativo">
+                <a id="_0" idFoto="0" class="ctr ativo">
                     <img src="https://dummyimage.com/100x70" alt="">
 
                 </a>
-                <a id="_1" idFoto="1" class="centralizar">
+                <a id="_1" idFoto="1" class="ctr">
                     <img src="https://dummyimage.com/100x70" alt="">
 
                 </a>
-                <a id="_2" idFoto="2" class="centralizar">
+                <a id="_2" idFoto="2" class="ctr">
                     <img src="https://dummyimage.com/100x70" alt="">
 
                 </a>
-                <a id="_3" idFoto="3" class="centralizar">
+                <a id="_3" idFoto="3" class="ctr">
                     <img src="https://dummyimage.com/100x70" alt="">
 
                 </a>
-                <a id="_4" idFoto="4" class="centralizar">
+                <a id="_4" idFoto="4" class="ctr">
                     <img src="https://dummyimage.com/100x70" alt="">
 
                 </a>
-                <a id="_5" idFoto="5" class="centralizar">
+                <a id="_5" idFoto="5" class="ctr">
                     <img src="https://dummyimage.com/100x70" alt="">
 
                 </a>
-                <a id="_6" idFoto="6" class="centralizar">
+                <a id="_6" idFoto="6" class="ctr">
                     <img src="https://dummyimage.com/100x70" alt="">
 
                 </a>
-                <a id="_7" idFoto="7" class="centralizar">
+                <a id="_7" idFoto="7" class="ctr">
                     <img src="https://dummyimage.com/100x70" alt="">
 
                 </a>
-                <a id="_8" idFoto="8" class="centralizar">
+                <a id="_8" idFoto="8" class="ctr">
                     <img src="https://dummyimage.com/100x70" alt="">
 
                 </a>
