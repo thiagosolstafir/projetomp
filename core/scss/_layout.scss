@@ -172,7 +172,7 @@
   left: 0;
   z-index: 6000;
   background: rgba(17, 17, 17, 0.8);
-  @include centralizar;
+  @include mp-ctr();
   display: none;
 
   svg {

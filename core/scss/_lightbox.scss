@@ -540,7 +540,7 @@
 #video-lt {
   @include mp-width(100%, 100%);
   position: absolute;
-  @include centralizar;
+  @include mp-ctr();
 
   padding: 120px 80px 80px 80px;
   .video-int {
